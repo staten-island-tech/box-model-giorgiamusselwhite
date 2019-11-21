@@ -9,7 +9,6 @@ html {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
 
 }
 
@@ -27,7 +26,6 @@ position: relative;
 position: relative;
 top: 20%;
 left: 50%;
-transform: translate(-50%, -50%);
 letter-spacing: .4rem;
      
 }
@@ -43,12 +41,11 @@ width: 10rem;
 background-color: bisque;
 top: 40%;
 left: 50%;
-transform: translate(-50%, -50%);
 }
 
 #phototext {
   z-index: 2;
-  top: -75%;
+  top: 5%;
   font-size: 3rem;
   }
 
