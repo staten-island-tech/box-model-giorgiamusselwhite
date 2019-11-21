@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 html {
   font-size: 62.5%;
@@ -7,57 +6,49 @@ html {
   box-sizing: border-box;
 }
 
+.position {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+}
+
 .header {
 height: 100rem;
 font-family: 'Allerta', sans-serif;
 font-size: 2rem;
-=======
-body {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-
-  .header {
-height: 100vh;
-font-family: 'Allerta', sans-serif;
->>>>>>> parent of 62cbd7c... finished project probably
 background-color: rgba(255, 127, 80, 1);
 text-align: center;
 position: relative;
 }
 
 .header-text {
-position: absolute;
-top: 50%;
+position: relative;
+top: 20%;
 left: 50%;
 transform: translate(-50%, -50%);
-<<<<<<< HEAD
 letter-spacing: .4rem;  
-=======
-     
-}
-
-h1 {
-text-transform: uppercase;
->>>>>>> parent of 62cbd7c... finished project probably
 }
 
 .imagebox {
 position: relative;
-height: 30vh;
+height: 10rem;
+width: 10rem;
 background-color: bisque;
-top: 50%;
+top: 40%;
 left: 50%;
 transform: translate(-50%, -50%);
 }
 
 #phototext {
   z-index: 2;
+  top: -75%;
+  font-size: 3rem;
   }
 
   #photo {
-    height: 30vh;
+    height: 45rem;
    
     }
      
