@@ -5,53 +5,48 @@ html {
   box-sizing: border-box;
 }
 
-.position {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-
-}
-
 .header {
+position: relative;  
 height: 100rem;
-font-family: 'Allerta', sans-serif;
-font-size: 2rem;
-
+font-family: 'Finger Paint', cursive;
 background-color: rgba(255, 127, 80, 1);
 text-align: center;
-position: relative;
 }
+
 
 .header-text {
 position: relative;
-top: 20%;
-left: 50%;
-letter-spacing: .4rem;
-     
-}
-
-h1 {
+margin: 0 auto;
+top: 2.5%;
+left: -1%;
 text-transform: uppercase;
+font-size: 3rem;
+letter-spacing: .4rem;
 }
 
-.imagebox {
+
+.photobox {
 position: relative;
 height: 10rem;
-width: 10rem;
-background-color: bisque;
-top: 40%;
-left: 50%;
+width: 30rem;
+background-color: rgba(255, 227, 194,1);
+top: 5%;
+left: 22.5%;                                                              
 }
 
 #phototext {
-  z-index: 2;
-  top: 5%;
+  z-index: 3;
+  top: 85%;
+  left: 45%;
   font-size: 3rem;
+  letter-spacing: .1rem;
+  width: 40rem;
+  position: absolute;
+  color: rgba(255, 230, 233,1);
   }
 
   #photo {
     height: 45rem;
-   
     }
 
 
